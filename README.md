@@ -1,5 +1,5 @@
 
-# CPI Anomaly Detection Across Countries — Deep Learning Pipeline
+# CPI Anomaly Detection Across Countries
 
 ## 🧠 Goal
 Detect anomalous consumer price index (CPI) behavior across multiple countries using deep learning models (LSTM, Transformer, etc.) on time series data — and validate anomalies via real-world news.
@@ -15,8 +15,6 @@ Detect anomalous consumer price index (CPI) behavior across multiple countries u
   - Monthly CPI data for 200+ countries.
   - https://doi.org/10.1016/j.jimonfin.2023.102896
 
-**[WE ARE HERE | WE ARE HERE | WE ARE HERE | WE ARE HERE | WE ARE HERE]**
-
 #### B. Output Format
 Target format (wide format matrix):
 ```
@@ -28,6 +26,10 @@ Date        | USA  | Germany | Argentina | ...
 ```
 
 ---
+
+
+**[WE ARE HERE | WE ARE HERE | WE ARE HERE | WE ARE HERE | WE ARE HERE]**
+
 
 ### 2. 🔧 Preprocessing
 - Interpolate or drop missing values.
