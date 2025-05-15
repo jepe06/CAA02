@@ -4,6 +4,8 @@
 ## 🧠 Goal
 Detect anomalous consumer price index (CPI) behavior across multiple countries using deep learning models (LSTM, Transformer, etc.) on time series data — and validate anomalies via real-world news.
 
+https://www.worldbank.org/en/research/brief/inflation-database
+
 ---
 
 ## ✅ TODO LIST
