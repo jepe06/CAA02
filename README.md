@@ -12,8 +12,8 @@ Detect anomalous consumer price index (CPI) behavior across multiple countries u
 
 #### A. Primary Sources (CPI Data)
 - [World Bank](https://www.worldbank.org/en/research/brief/inflation-database)
-  - https://doi.org/10.1016/j.jimonfin.2023.102896
   - Monthly CPI data for 200+ countries.
+  - https://doi.org/10.1016/j.jimonfin.2023.102896
 
 **[WE ARE HERE | WE ARE HERE | WE ARE HERE | WE ARE HERE | WE ARE HERE]**
 
