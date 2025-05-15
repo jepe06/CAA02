@@ -4,8 +4,6 @@
 ## 🧠 Goal
 Detect anomalous consumer price index (CPI) behavior across multiple countries using deep learning models (LSTM, Transformer, etc.) on time series data — and validate anomalies via real-world news.
 
-https://www.worldbank.org/en/research/brief/inflation-database (https://doi.org/10.1016/j.jimonfin.2023.102896)
-
 ---
 
 ## ✅ TODO LIST
@@ -13,19 +11,11 @@ https://www.worldbank.org/en/research/brief/inflation-database (https://doi.org/
 ### 1. 📦 Data Acquisition
 
 #### A. Primary Sources (CPI Data)
-- [OECD Stats](https://stats.oecd.org/)
-  - Navigate to: **Prices > Consumer Prices (MEI)**
-  - Monthly data, clean format.
-- [IMF IFS](https://data.imf.org/)
-  - Economic Indicators → Prices → CPI, All Items
-  - Export via query builder (CSV/Excel).
-- [World Bank](https://data.worldbank.org/indicator/FP.CPI.TOTL)
-  - Check for **monthly availability** per country.
-  - Otherwise fallback to annual.
-- [Trading Economics API](https://tradingeconomics.com/)
-  - Optional: Real-time data via API (limited free access).
-- [UN Data](http://data.un.org/)
-  - Backup source, sometimes incomplete.
+- [World Bank](https://www.worldbank.org/en/research/brief/inflation-database)
+  - https://doi.org/10.1016/j.jimonfin.2023.102896
+  - Monthly CPI data for 200+ countries.
+
+**[WE ARE HERE | WE ARE HERE | WE ARE HERE | WE ARE HERE | WE ARE HERE]**
 
 #### B. Output Format
 Target format (wide format matrix):
