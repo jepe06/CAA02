@@ -1,16 +1,14 @@
 
 # CPI Anomaly Detection Across Countries
 
-## 🧠 Goal
+## Goal
 Detect anomalous consumer price index (CPI) behavior across multiple countries using deep learning models (LSTM, Transformer, etc.) on time series data — and validate anomalies via real-world news.
 
 ---
 
-## ✅ TODO LIST
+### 1. Data Acquisition
 
-### 1. 📦 Data Acquisition
-
-#### A. Primary Sources (CPI Data)
+#### A. Primary Source (CPI Data)
 - [World Bank](https://www.worldbank.org/en/research/brief/inflation-database)
   - Monthly CPI data for 200+ countries.
   - https://doi.org/10.1016/j.jimonfin.2023.102896
@@ -18,18 +16,25 @@ Detect anomalous consumer price index (CPI) behavior across multiple countries u
 #### B. Output Format
 Target format (wide format matrix):
 ```
-Date        | USA  | Germany | Argentina | ...
-------------|------|---------|-----------|-----
-2020-01     | 256  | 105     | 345       |
-2020-02     | 257  | 106     | 360       |
+Date       | ABW | AFG | AUT      | ...
+-----------|-----|-----|----------|-----
+1970-01-01 | NaN | NaN | 22.48557 |
+1970-02-01 | NaN | NaN | 22.46568 |
 ...
 ```
 
+If in some case you want to avoid NaN values, you can use the following:
+
+```python
+hcpi_m.loc["2010-01":"2023-12"].dropna(axis=1)
+```
+ 
+
 ---
 
+## ✅ TODO LIST
 
 **[WE ARE HERE | WE ARE HERE | WE ARE HERE | WE ARE HERE | WE ARE HERE]**
-
 
 ### 2. 🔧 Preprocessing
 - Interpolate or drop missing values.
